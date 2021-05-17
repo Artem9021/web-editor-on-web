@@ -82,8 +82,12 @@ iframe {
 }
 
 .about-section {
-    padding: 10px;
+    padding: 20px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
-    
+
+}
+
+.about-section ul {
+    margin-left: 15px;
 }

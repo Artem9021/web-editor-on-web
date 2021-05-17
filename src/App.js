@@ -87,6 +87,7 @@ export default function App() {
               <li>Syntax highlighting (powered by CodeMirror)</li>
               <li>Auto closing brackets, quotation marks, etc.</li>
               <li>Webpage preview</li>
+              <li>Easy to use UI with tabs.</li>
             </ul>
             </div>
        </div>
