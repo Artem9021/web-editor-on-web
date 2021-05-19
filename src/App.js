@@ -39,24 +39,6 @@ export default function App() {
   }, [html, css, js])
  
     return (
-      /*
-      <>
-      <div className="editor-container section">
-        <Editor language="xml" title="HTML" value={html} onChange={setHtml}/>
-        <Editor language="css" title="CSS" value={css} onChange={setCss}/>
-        <Editor language="javascript" title="JS" value={js} onChange={setJs}/>
-      </div>
-      <div className="section">
-      <iframe
-          srcDoc={source}
-          sandbox="allow-scripts"
-          frameBorder="0"
-          width="100%"
-          height="100%"
-          />
-      
-      </div> 
-      </>*/
       <>
       <Tabs> 
        <div label="HTML"> 
@@ -89,6 +71,7 @@ export default function App() {
               <li>Webpage preview</li>
               <li>Easy to use UI with tabs.</li>
             </ul>
+            <a href="https://github.com/Artem9021/web-editor-on-web">GitHub Link</a>
             </div>
        </div>
      </Tabs> 
